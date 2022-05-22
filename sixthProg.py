@@ -10,8 +10,8 @@ dict1=dict(list1)
 print(dict1)
 for item in dict1:
     print(item)
-for item,lollypop in dict1.items():
-    print(item,lollypop)
+for item,lollipop in dict1.items():
+    print(item,lollipop)
 
 
 
