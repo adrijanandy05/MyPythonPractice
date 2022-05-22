@@ -19,7 +19,7 @@ def harry():
     print(x)  #prints 20 because it first looks for local variable inside function and then goes for global variable
 print(x)
 harry()
-print(x)
+print(x)   #prints 88 because it first looked in global variable but after calling harry() it saw "global" keyword which changed the global variable so it took the changed value
 
 """
 x=90
