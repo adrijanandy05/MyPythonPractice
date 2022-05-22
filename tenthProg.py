@@ -16,7 +16,8 @@ def harry():
         x=88
         print(x)
     rohan()
-    print(x)
+    print(x)  #prints 20 because it first looks for local variable inside function and then goes for global variable
+print(x)
 harry()
 print(x)
 
