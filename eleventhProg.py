@@ -13,6 +13,6 @@ def fib(n):
     elif n==1:
         return 1
     else:
-        return fib(n-1)+fib(n-1)
+        return fib(n-1)+fib(n-2)
 num1=int(input("Enter a number: "))
 print("Fibonacci number is ",fib(num1))
